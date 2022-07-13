@@ -13,8 +13,6 @@ using
 Use a UUID as primary key, we need to change `$table->increments('id');` to `$table->uuid('id')->primary();`
 
 ## Models
-### Disable auto-increment primary key
-Add `$incrementing = false;` to your Models.
 
 ### Use Traits
 Add `use PkUuuids;` to your Models.
@@ -31,8 +29,6 @@ use Racklin\PkUuids\PkUuids;
 class User extends Model
 {
     use PkUuids;
-
-    $incrementing = false;
 }
 ```
 
