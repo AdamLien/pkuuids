@@ -1,5 +1,5 @@
 {
-    "name": "racklin/pkuuids",
+    "name": "adamlien/pkuuids",
     "description": "Using a UUID as PrimaryKey for laravel 5.3+",
     "keywords" : ["laravel", "postgres"],
     "license" : "MIT",
@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "illuminate/support": "5.*",
+        "illuminate/support": ">5.*",
         "ramsey/uuid": "~3.0"
     },
     "autoload": {
