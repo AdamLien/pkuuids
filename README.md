@@ -13,6 +13,8 @@ using
 Use a UUID as primary key, we need to change `$table->increments('id');` to `$table->uuid('id')->primary();`
 
 ## Models
+### Disable auto-increment primary key
+Add `$incrementing = false;` to your Models.
 
 ### Use Traits
 Add `use PkUuuids;` to your Models.
@@ -29,10 +31,12 @@ use Racklin\PkUuids\PkUuids;
 class User extends Model
 {
     use PkUuids;
+
+    public $incrementing = false;
 }
 ```
 
 
 ## Laravel version
 
-Current package version works for Laravel 5.3+.
+Current package version works for Laravel 5.3+ 6.x 7.x 8.x 9.x
