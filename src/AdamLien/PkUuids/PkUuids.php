@@ -1,13 +1,13 @@
 <?php
 
-namespace Racklin\PkUuids;
+namespace AdamLien\PkUuids;
 
 use Illuminate\Support\Str;
 
 /**
  * Trait PkUuids
  *
- * @package Racklin\PkUuids
+ * @package AdamLien\PkUuids
  */
 trait PkUuids
 {
