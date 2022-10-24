@@ -19,7 +19,7 @@
   },
   "autoload": {
     "psr-0": {
-      "Racklin\\PkUuids": "src/"
+      "AdamLien\\PkUuids": "src/"
     }
   },
   "minimum-stability": "stable"
